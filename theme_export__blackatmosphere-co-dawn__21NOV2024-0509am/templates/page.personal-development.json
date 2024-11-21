@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_pLjPbz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UcbEUp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personal Development",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UcbEUp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sunglasses-stationary-and-a-cellphone-on-a-white-tray.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_nQgBwE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9aXQeP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock Your Potential: Personal Development Kits",
+            "heading_size": "h1"
+          }
+        },
+        "text_MYJBJN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personal development is a lifelong journey that empowers individuals to enhance their skills, knowledge, and overall well-being. Our Personal Development Kits are thoughtfully curated to support your growth and self-improvement goals. Each kit includes resources like books, journals, and guided activities designed to inspire reflection and motivate action. Whether you aim to boost your confidence, cultivate mindfulness, or develop new skills, these kits provide the tools and insights you need to embark on a transformative journey. Start investing in yourself today and unlock the best version of you!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9aXQeP",
+        "text_MYJBJN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_D3VKta": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xt8bGt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5907.jpg",
+            "title": "Mental Wellness Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/mental-wellness-kit"
+          }
+        },
+        "column_WdqCYT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5661_1_fc533b0b-f49a-4408-aaca-09c6e50f9b9b.jpg",
+            "title": "Womb Care Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/womb-care-kit"
+          }
+        },
+        "column_gWapid": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/20b31a9b6474de921228bdc2877a46027b36c1084e311440379a4c07e55f7da4_7f1442a7-fea8-4213-9e78-e89736b16a2c.jpg",
+            "title": "Gut Health Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/gut-health-kit"
+          }
+        },
+        "column_aQyzCL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/coming_soon.png",
+            "title": "Startup Kit (coming soon)",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/startup-kit"
+          }
+        }
+      },
+      "block_order": [
+        "column_xt8bGt",
+        "column_WdqCYT",
+        "column_gWapid",
+        "column_aQyzCL"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-multicolumn-2",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_7bJRC8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LrtJdW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meditation Monday: Join Us for a Refreshing Start!",
+            "heading_size": "h1"
+          }
+        },
+        "text_87WJW8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start your week with calm and clarity. Join our <strong>Meditation Monday</strong> group sessions, designed to help you relax, rejuvenate, and connect with like-minded individuals. Guided meditation will allow you to clear your mind, improve focus, and break the ice with fellow participants. Reserve your spot now by scanning the code and take a step toward mental peace. Let’s make Mondays a mindful journey together!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LrtJdW",
+        "text_87WJW8"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-personal-image-with-text",
+        "image": "shopify://shop_images/Beige_And_Brown_Organic_Book_Club_Meeting_Instagram_Post_a3847ff9-41bd-4a97-8529-e27e77310fee.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_pLjPbz",
+    "rich_text_nQgBwE",
+    "multicolumn_D3VKta",
+    "image_with_text_7bJRC8"
+  ]
+}

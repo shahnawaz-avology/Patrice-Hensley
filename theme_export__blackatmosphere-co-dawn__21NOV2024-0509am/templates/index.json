@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_LdGzce": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bjpL3d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beat the Burnout",
+            "heading_size": "h1"
+          }
+        },
+        "text_WPTRm7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Empowering entrepreneurs with personalized coaching that balances business growth and personal wellness. We believe that thriving businesses are built by entrepreneurs who feel supported, both professionally and emotionally. Explore our services to discover how we can help you achieve success without sacrificing your well-being.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KU9r6A": {
+          "type": "button",
+          "settings": {
+            "button_label": "Assessment",
+            "button_link": "https://forms.gle/wJ8YMao9zptcL4Hy6",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bjpL3d",
+        "text_WPTRm7",
+        "button_KU9r6A"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-image-with-text",
+        "image": "shopify://shop_images/Untitled_design_1.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_DLzJKe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_CbAJyF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vector_1.svg",
+            "title": "Our Partners",
+            "text": "<p>BA&Co Business Clinic collaborates with diverse partners to create a supportive ecosystem that empowers entrepreneurs through personalized coaching and wellness practices, fostering resilience and preventing burnout.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eGrz7n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hearts-3bd3b0e6.svg-svg.png",
+            "title": "Community",
+            "text": "<p>BA&Co Business Clinic cultivates a supportive community and offers extensive resources to create a safe space where entrepreneurs can thrive, prioritize their well-being, and build lasting relationship</p>",
+            "link_label": "Click here",
+            "link": "https://discord.gg/3de475zt"
+          }
+        },
+        "column_QG7qBa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clip_path_group.svg",
+            "title": "Meditation Monday’s",
+            "text": "<p>Join us every morning at BA&Co Business Clinic to kickstart your week with calming meditation and breathing techniques designed to combat stress and enhance your well-being.</p>",
+            "link_label": "Click here",
+            "link": "https://us05web.zoom.us/j/81799597416?pwd=pSdgs17xz9FVUH2AgXRledDOxuiYpL.1"
+          }
+        }
+      },
+      "block_order": [
+        "column_CbAJyF",
+        "column_eGrz7n",
+        "column_QG7qBa"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-multicolumn",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Gq4xYz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KYDTUi": {
+          "type": "heading",
+          "settings": {
+            "heading": "About me",
+            "heading_size": "h1"
+          }
+        },
+        "text_iAFzUG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Raised on the Southside of Chicago, Trice has always had a love for the Arts. An activist, entrepreneur, and fashion designer</p><p><br/>Her passionate relationship with music and fashion is the perfect love story. Trice was discovered by auditioning for Janet Jackon’‘s Triple Threat show for singing, dancing, and acting. Patrice H. is the brains behind the brands.<br/><br/>Helping over a dozen companies with product development Now, she's starting a lifestyle brand promoting personal development, health, wellness, & beauty, where she coached several A-list celebrities.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KYDTUi",
+        "text_iAFzUG"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-about-image-with-text",
+        "image": "shopify://shop_images/IMG_7913.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4DmYQW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hV8tAU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personalized Just for You We value your feedback! If you find a product that you love, let us know, and we’ll make sure to include your favorites in future boxes. Our goal is to create a personalized experience that caters to your unique needs and preferences.</p><p>Starter Kit To get you started on your journey to better mental health, our starter kit includes a selection of our most popular items. We hope you enjoy this introduction to our subscription service and find it beneficial in your daily routine.</p><p>Join Us Invest in your well-being with our subscription boxes and take the first step towards a more balanced and fulfilling life. We are committed to supporting you every step of the way.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hV8tAU"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_FzNL9f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YXmVrB": {
+          "type": "heading",
+          "settings": {
+            "heading": "SELF-CARE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YXmVrB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_k8pnCY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XNGrkX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5907.jpg",
+            "title": "Mental Wellness Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/mental-wellness-kit"
+          }
+        },
+        "column_xErzbA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6087_1.jpg",
+            "title": "Womb Care Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/womb-care-kit"
+          }
+        },
+        "column_TMCpT8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/20b31a9b6474de921228bdc2877a46027b36c1084e311440379a4c07e55f7da4_7f1442a7-fea8-4213-9e78-e89736b16a2c.jpg",
+            "title": "Gut Health Kit",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/gut-health-kit"
+          }
+        },
+        "column_NJjgiz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6081.jpg",
+            "title": "Mystery Box",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XNGrkX",
+        "column_xErzbA",
+        "column_TMCpT8",
+        "column_NJjgiz"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-multicolumn-2",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_EfFpGh": {
+      "type": "featured-collection",
+      "settings": {
+        "custom_class": "cst-custom-home-featured-collection",
+        "title": "new arrivals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "homepage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_LrdDAg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4Tjw6k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fuel your Entrepreneurial Leadership ",
+            "heading_size": "h1"
+          }
+        },
+        "text_9jeTGn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fuel your entrepreneurial leadership by embracing innovation and a growth mindset. Lead with vision, inspire your team, and turn challenges into opportunities. Cultivate continuous learning and a collaborative culture. Empower your team and stay adaptable. Your leadership will drive success and make a lasting impact.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_AUaLA8": {
+          "type": "button",
+          "settings": {
+            "button_label": "More about us",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4Tjw6k",
+        "text_9jeTGn",
+        "button_AUaLA8"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-image-with-text-2",
+        "image": "shopify://shop_images/pexels-asphotograpy-96974.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_kymptz": {
+      "type": "featured-collection",
+      "settings": {
+        "custom_class": "cst-custom-home-collection-list",
+        "title": "Best Sellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestseller",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4FXqRY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BTBhyf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mental health podcast",
+            "heading_size": "h1"
+          }
+        },
+        "text_CBRc9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A mental health podcast offers a safe space for open conversations on mental well-being. It covers topics like anxiety, depression, self-care, and personal stories, providing support, education, and resources. With expert interviews and relatable discussions, it aims to break stigma and promote mental health awareness and resilience.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PDYGdi": {
+          "type": "button",
+          "settings": {
+            "button_label": "listen more",
+            "button_link": "https://open.spotify.com/show/74DP3dkS5blkX7dQtacxIc",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BTBhyf",
+        "text_CBRc9k",
+        "button_PDYGdi"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-image-with-text",
+        "image": "shopify://shop_images/Copy_of_Copy_of_Copy_of_Better_Help_Instagram_Post.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_TqiWxJ": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_3eVChw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_gxMCaH": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_dEUapD": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_3eVChw",
+        "paragraph_gxMCaH",
+        "email_form_dEUapD"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-home-newsletter",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_with_text_LdGzce",
+    "multicolumn_DLzJKe",
+    "image_with_text_Gq4xYz",
+    "rich_text_4DmYQW",
+    "rich_text_FzNL9f",
+    "multicolumn_k8pnCY",
+    "featured_collection_EfFpGh",
+    "image_with_text_LrdDAg",
+    "featured_collection_kymptz",
+    "image_with_text_4FXqRY",
+    "newsletter_TqiWxJ"
+  ]
+}

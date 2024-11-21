@@ -1,0 +1,457 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  input#remove_1 {
+      display: none;
+  }
+        .consult-form-contact .consult-form-contact__fields {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 50px;
+      }
+        .consult-form-section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+          padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        }
+
+        @media screen and (min-width: 750px) {
+          .consult-form-section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+          }
+        }
+
+        .consult-form-field {
+          width: 100%;
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .consult-form-field__input {
+          border: none;
+          border-bottom: 2px solid #ccc;
+          padding: 10px;
+          width: 100%;
+          box-sizing: border-box;
+          font-size: 16px;
+        }
+
+        .consult-form-field__label {
+          margin-bottom: 5px;
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        .consult-form-field__input:focus {
+          border-bottom-color: #007bff;
+          outline: none;
+        }
+
+        .consult-form-field__radio {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;/* Adjust spacing between radio buttons as needed */
+          border:none;
+        }
+
+        .consult-form-field__radio input[type="radio"] {
+          margin-right: 5px; /* Space between radio button and its label */
+        }
+
+        .consult-form-field__radio label {
+          margin: 0;
+        }
+
+        .consult-form-contact__button {
+          margin-top: 20px;
+        }
+{%- endstyle -%}
+<div style="margin:0 auto;" class="pxFormGenerator" id="4kVNeHC3eZ2DHfg37CcO2A"></div>
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="consult-form-contact page-width consult-form-section-{{ section.id }}-padding">
+    {% comment %}
+      {%- if section.settings.heading != blank -%}
+        <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.heading }}
+        </h2>
+      {%- else -%}
+        <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      {%- endif -%}
+    {% endcomment %}
+    {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {% render 'icon-success' %}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {% render 'icon-error' %}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+      <div class="consult-form-contact__fields">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+            {%- when 'input' -%}
+              <div class="consult-form-field">
+                <label class="consult-form-field__label" for="{{ block.settings.id }}">
+                  {{- block.settings.label -}}
+                </label>
+                <input
+                  class="consult-form-field__input"
+                  autocomplete="{{ block.settings.name }}"
+                  type="{{ block.settings.type }}"
+                  id="{{ block.settings.id }}"
+                  name="contact[{{ block.settings.name }}]"
+                  value="{{ form[block.settings.name] }}"
+                  placeholder="{{ block.settings.placeholder }}"
+                  {% if block.settings.required %}
+                    required
+                  {% endif %}
+                >
+              </div>
+            {%- when 'select' -%}
+              <div class="consult-form-field">
+                <label class="consult-form-field__label" for="{{ block.settings.id }}">
+                  {{- block.settings.label -}}
+                </label>
+                <select
+                  id="{{ block.settings.id }}"
+                  name="contact[{{ block.settings.name }}]"
+                  class="consult-form-field__input"
+                  {% if block.settings.required %}
+                    required
+                  {% endif %}
+                >
+                  {% for i in (1..6) %}
+                    {%- assign option_key = 'option_' | append: i -%}
+                    {%- assign option_value = block.settings[option_key] -%}
+                    {% if option_value %}
+                      <option
+                        value="{{ option_value }}"
+                        {% if option_value == block.settings.default %}
+                          selected
+                        {% endif %}
+                      >
+                        {{ option_value }}
+                      </option>
+                    {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+            {% when 'text' %}
+              <div class="new-sectionheading">
+                <label class="consult-form-field__label" for="">{{ block.settings.textheading_1 }}</label>
+                <p>{{ block.settings.textheading_2 }}</p>
+              </div>
+            {%- when 'radio' -%}
+              <div class="consult-form-field">
+                <fieldset class="consult-form-field__radio">
+                  <legend class="consult-form-field__label">{{ block.settings.heading }}</legend>
+                  {% for i in (1..5) %}
+                    {%- assign option_key = 'option_' | append: i -%}
+                    {%- assign option_value = block.settings[option_key] -%}
+                    {% if option_value != blank %}
+                      <div class="consult-form-field__radio">
+                        <input
+                          type="radio"
+                          id="{{ block.settings.id }}-{{ i }}"
+                          name="contact[{{ block.settings.name }}]"
+                          value="{{ option_value }}"
+                          {% if block.settings.required %}
+                            required
+                          {% endif %}
+                        >
+                        <label for="{{ block.settings.id }}-{{ i }}">{{ option_value }}</label>
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                </fieldset>
+              </div>
+          {%- endcase -%}
+        {% endfor %}
+      </div>
+      <div class="consult-form-contact__button">
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+      </div>
+    {%- endform -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Assessment form",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Input",
+      "type": "input",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "placeholder",
+          "label": "Placeholder"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+        {
+          "type": "text",
+          "id": "type",
+          "label": "Type"
+        },
+        {
+          "type": "text",
+          "id": "id",
+          "label": "ID"
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required"
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "type": "text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "textheading_1",
+          "label": "Name"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "textheading_2",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "name": "Select",
+      "type": "select",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+        {
+          "type": "text",
+          "id": "option_1",
+          "label": "Option 1",
+          "default": "xs"
+        },
+        {
+          "type": "text",
+          "id": "option_2",
+          "label": "Option 2",
+          "default": "s"
+        },
+        {
+          "type": "text",
+          "id": "option_3",
+          "label": "Option 3",
+          "default": "m"
+        },
+        {
+          "type": "text",
+          "id": "option_4",
+          "label": "Option 4",
+          "default": "l"
+        },
+        {
+          "type": "text",
+          "id": "option_5",
+          "label": "Option 5",
+          "default": "xl"
+        },
+        {
+          "type": "text",
+          "id": "option_6",
+          "label": "Option 6",
+          "default": "xxl"
+        },
+        {
+          "type": "text",
+          "id": "default",
+          "label": "Default Option",
+          "default": "m"
+        },
+        {
+          "type": "text",
+          "id": "id",
+          "label": "ID"
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required"
+        }
+      ]
+    },
+    {
+      "name": "Radio",
+      "type": "radio",
+      "settings": [
+         {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "option_1",
+          "label": "Option 1"
+        },
+        {
+          "type": "text",
+          "id": "option_2",
+          "label": "Option 2"
+        },
+        {
+          "type": "text",
+          "id": "option_3",
+          "label": "Option 3"
+        },
+        {
+          "type": "text",
+          "id": "option_4",
+          "label": "Option 4"
+        },
+        {
+          "type": "text",
+          "id": "option_5",
+          "label": "Option 5"
+        },
+      {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Assessment form"
+    }
+  ]
+}
+{% endschema %}

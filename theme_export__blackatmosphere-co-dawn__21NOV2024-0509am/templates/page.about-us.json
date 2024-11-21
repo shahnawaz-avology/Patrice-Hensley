@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_i8ecUq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QptmCP": {
+          "type": "heading",
+          "settings": {
+            "heading": "About us",
+            "heading_size": "h1"
+          }
+        },
+        "text_DTC9nF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BA&Co Business Clinic, we understand the importance of self-care and mental well-being, especially for entrepreneurs. Our monthly subscription boxes are designed to provide you with a moment of peace and relaxation after a long, stressful day.</p><p>What’s Inside? Each month, you’ll receive a carefully curated mystery box filled with products aimed at enhancing your mental health and well-being. From soothing teas and calming essential oils to mindfulness journals and stress-relief tools, our boxes are crafted to help you unwind and rejuvenate.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QptmCP",
+        "text_DTC9nF"
+      ],
+      "settings": {
+        "custom_class": "cst-custom-about-image-with-text",
+        "image": "shopify://shop_images/pixelcut-export.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_zfaGWW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_GFtCmc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personalized Just for You We value your feedback! If you find a product that you love, let us know, and we’ll make sure to include your favorites in future boxes. Our goal is to create a personalized experience that caters to your unique needs and preferences.</p><p>Starter Kit To get you started on your journey to better mental health, our starter kit includes a selection of our most popular items. We hope you enjoy this introduction to our subscription service and find it beneficial in your daily routine.</p><p>Join Us Invest in your well-being with our subscription boxes and take the first step towards a more balanced and fulfilling life. We are committed to supporting you every step of the way.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_GFtCmc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_i8ecUq",
+    "rich_text_zfaGWW"
+  ]
+}
